@@ -1,4 +1,5 @@
 print("Hello World")
+print("!"*10)
 
 print("\n------------- Print Type ------------------")
 x = 3.14
@@ -9,9 +10,12 @@ print(f"x type: {type(x)}")
 print("\n------------- Array ------------------")
 point = [98,99,100]
 print(point)
+
 # 追加
 point.append(97)
 print(f"追加97 : {point}")
+
+
 # 削除
 point.remove(100)
 print(f"削除100 : {point}")
